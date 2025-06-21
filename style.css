@@ -95,7 +95,7 @@ nav ul a {
     text-transform: uppercase;
 }
 
-nav ul a:hover, .aktivni a {
+nav ul a:hover, .active a {
     border-bottom: 2px solid #EF6534;
 }
 
@@ -180,4 +180,13 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+}
+
+.left {
+    float: left;
+    padding-right: 10px;
+}
+
+.center {
+    text-align: center;
 }
