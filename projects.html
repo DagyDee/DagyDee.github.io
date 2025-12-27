@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ukázky projektů v Pythonu, datové analýze a webovém vývoji.">
+  <title>Projekty | Dagmar Vodáková</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">Dagmar Vodáková</a>
+    <nav class="main-nav">
+      <ul>
+        <li class="active"><a href="projects.html">Projekty</a></li>
+        <li><a href="skills.html">Dovednosti</a></li>
+        <li><a href="education.html">Vzdělání</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html" class="btn">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <header class="page-header">
+    <h1>Projekty</h1>
+    <p>
+      Výběr osobních projektů,
+      na kterých si prakticky ověřuji znalosti Pythonu,
+      práce s daty a webového vývoje.
+    </p>
+  </header>
+
+  <section class="projects-grid">
+
+    <article class="project-card">
+      <img src="images/weather_comparison_nahled.png" alt="Porovnání délky slunečního svitu v českých městech">
+      <h2>Weather Comparison App</h2>
+
+      <p>
+        Datově orientovaná webová aplikace pro porovnání
+        meteorologických údajů mezi vybranými městy v České republice.
+        Aktuálně se zaměřuje na porovnání délky slunečního svitu
+        mezi Brnem a Plzní.
+      </p>
+
+      <p>
+        Projekt demonstruje kompletní workflow od získání historických dat
+        z veřejného REST API přes jejich zpracování a analýzu až po
+        interaktivní vizualizaci a prezentaci ve webovém rozhraní.
+      </p>
+
+      <ul>
+        <li>Python, Pandas – zpracování a analýza dat</li>
+        <li>REST API (Open-Meteo)</li>
+        <li>Plotly – interaktivní grafy</li>
+        <li>Streamlit – webová prezentace aplikace</li>
+      </ul>
+
+      <a href="https://github.com/DagyDee/weather-comparison-app" class="text-link">
+        GitHub repozitář →
+      </a>
+    </article>
+
+    <article class="project-card">
+      <img src="images/balls_nahled.png" alt="Interaktivní Python hra s pohybujícími se objekty">
+      <h2>Click & Seek Coordinates Game</h2>
+
+      <p>
+        Interaktivní click-based hra v Pythonu navržená jako puzzle
+        komponenta pro geocaching (mystery cache).
+        Hráč kliká na pohybující se objekty, které mohou odhalovat
+        skryté zprávy a indicie.
+      </p>
+
+      <p>
+        Projekt zaměřený na procvičení herní smyčky, práce s událostmi
+        a návrhu jednoduché herní logiky. Důraz je kladen na čitelnost
+        kódu, konfigurovatelnost a možnost dalšího rozšíření.
+      </p>
+
+      <ul>
+        <li>Python 3.10+</li>
+        <li>Pyglet</li>
+        <li>herní smyčka a animace</li>
+        <li>click-based uživatelské události</li>
+        <li>konfigurovatelné herní parametry</li>
+      </ul>
+
+      <a href="https://github.com/DagyDee/geo_balls_game" class="text-link">
+        GitHub repozitář →
+      </a>
+    </article>
+
+    <article class="project-card">
+      <img src="images/dagy_web_nahled.png" alt="Statické webové portfolio v HTML a CSS">
+      <h2>Web Portfolio</h2>
+
+      <p>
+        Statické vícestránkové webové portfolio sloužící
+        jako centrální prezentace osobních projektů,
+        technických dovedností a profesního profilu.
+      </p>
+
+      <p>
+        Projekt je zaměřený na návrh sémantické struktury HTML,
+        responzivní layout, přehlednou architekturu souborů
+        a publikaci webu pomocí GitHub Pages.
+      </p>
+
+      <ul>
+        <li>HTML – sémantická struktura</li>
+        <li>CSS – Flexbox, Grid, responzivita</li>
+        <li>Git & GitHub Pages – verzování a deployment</li>
+        <li>statický web bez frameworků</li>
+      </ul>
+
+      <a href="https://github.com/DagyDee/DagyDee.github.io" class="text-link">
+        GitHub repozitář →
+      </a>
+    </article>
+
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Dagmar Vodáková</p>
+    <p>
+      <a href="https://github.com/DagyDee">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/dagmar-vodakova/">LinkedIn</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
